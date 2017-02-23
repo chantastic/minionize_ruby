@@ -7,7 +7,6 @@ Gem::Specification.new do |s|
   s.authors     = ["Michael Chan"]
   s.email       = 'mijoch@gmail.com'
   s.files       = ["lib/minionize.rb"]
-  s.homepage    =
-    'http://rubygems.org/gems/minionize'
-  s.license       = 'MIT'
+  s.homepage    = 'http://rubygems.org/gems/minionize'
+  s.license      = 'MIT'
 end
