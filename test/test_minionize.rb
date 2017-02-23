@@ -32,4 +32,11 @@ class MinionizeTest < Minitest::Test
 			mx: "p-7 m-7",
 		})
 	end
+
+	def test_default
+		assert_equal "p-1 m-1 p-2@md m-2@md", Minionize.to_s({
+			default: "p-1 m-1",
+			md: "p-2 m-2",
+		})
+	end
 end
